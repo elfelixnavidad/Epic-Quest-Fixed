@@ -1,0 +1,29 @@
+EXPLANATION:
+I have always wanted to make a space shooter so this is my attempt at a space shooter.
+I am still new to sfml (I used allegro in the past) so there might be a lot of errors, please forgive me.
+
+CONTROLS:
+To move use the arrow keys.
+To shoot press the space bar.
+To adjust the volume use the keypad plus and minus keys.
+To exit click the exit button or just press escape on your keyboard.
+
+CREDITS:
+It is not the best but I made everything except the sounds everything else (graphics, code, etc.) was made my me.
+Musical credit goes Rachel J. Morris and Zied (http://openart.moosader.info/music.php5).
+
+COMPILING:
+For both builds you need the latest version of SFML (2.0), CMake 2.6 or higher, and a C++ compiler.
+
+For POSIX systems:
+    #1 mkdir build
+    #2 cd build
+    #3 cmake ..
+    #4 make
+    #5 cd ..
+    #6 ./Epic-Quest
+
+For Windows:
+    cmake.exe -G"Your version of Visual Studio" -H<source_dir> -B<build_dir>
+
+Anyway have fun!!
