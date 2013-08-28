@@ -3,7 +3,7 @@
 
 #include <vector>
 
-#include "Level.hpp"
+#include "../include/Level.hpp"
 #include <SFML/Audio.hpp>
 
 const unsigned int WORLDS = 2;
